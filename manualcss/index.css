@@ -1,0 +1,262 @@
+/* NAVBAR SECTION */
+.navbar{
+    height: 50px;
+    background-color: green;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-ul{
+    margin-left: 6%;
+    font-size: 20px;
+    white-space: nowrap;
+    width: max-content;
+}
+
+form{
+    margin-left: 22%;
+}
+
+.nav-ul ul li{
+    margin-left: 5%;
+}
+
+.nav-ul li:hover{
+    background-color: rgb(60, 255, 60);
+    border-radius: 20px;
+}
+
+.navbar-brand img{
+    border-radius: 40px;
+}
+
+.whole-content{
+    background-image: url(/images/bg.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* END OF NAVBAR */
+
+/* BANNER SECTION */
+.nav-h1{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: 4%; */
+    /* padding: 50px; */
+    padding-top: 60px;
+}
+
+.nav-h1 img{
+    border-radius: 400px;
+    width: 300px;
+    height: 300px;
+    margin-top: 8%;
+}
+
+.nav-h1 h1{
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 5px 10px 20px black;
+    font-size: 50px;
+    font-weight: 900;
+    animation: anim 5s forwards;
+    width: 550px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 28%;
+    border-right: 5px black solid;
+}
+
+@keyframes anim{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 44%;
+    }
+}
+/* END OF BANNER SECTION */
+
+/* CATEGORY SECTION */
+.category{
+    display: flex;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.category1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 270px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(222, 222, 222);
+}
+
+.category1 h6{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+.category1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.category1 a:hover{
+    background-color: rgb(109, 106, 106,0.10);
+}
+
+.carder{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    margin-left: 4%;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: rgb(88, 255, 88);
+    box-shadow: 2px 2px 3px 4px black;
+    color: white;
+}
+
+.card img{
+    border-bottom: 0.5px solid black;
+    height: 50%;
+}
+
+/* CATEGORY 3 */
+.category3{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-right: 3%;
+}
+
+.category3-h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-row{
+    display: flex;
+    width: 100%;
+}
+
+.card3{
+    width: 350px;
+    margin-left: 3%;
+    height: 360px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.card3 img{
+    height: 52%;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.card3 p{
+    padding-top: 10px;
+}
+
+.card3 span{
+    color: red;
+}
+
+.card3:hover{
+    box-shadow: 2px 2px 3px 4px black;
+    background-color: rgb(88, 255, 88);
+    color: #fff;
+}
+
+.card-footer a{
+    margin-left: 2%;
+}
+
+.card-footer input{
+    border-radius: 5px;
+    width: 85px;
+    height: 35px;
+    margin-top: 1%;
+    padding-bottom: 14px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* CONTENT SECTION */
+.gallery{
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.gallery .flip-card{
+    margin-left: 10%;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 2px 4px 8px 10px rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+    width: 100%;
+  }
+  /* GALLERY END */
+
+  /* FOOTER SECTION */
+  .footer ul li a{
+    color: white;
+  }

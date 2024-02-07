@@ -1,0 +1,124 @@
+/* NAVBAR SECTION */
+.navbar{
+    height: 50px;
+    background-color: green;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-ul{
+    margin-left: 6%;
+    font-size: 20px;
+    white-space: nowrap;
+    width: max-content;
+}
+
+form{
+    margin-left: 22%;
+}
+
+.nav-ul ul li{
+    margin-left: 5%;
+}
+
+.nav-ul li:hover{
+    background-color: rgb(60, 255, 60);
+    border-radius: 20px;
+}
+/* END OF NAVBAR */
+
+/* BANNER SECTION */
+.banner{
+    height: 50vh;
+    text-align: center;
+    margin-top: 4%;
+    background-image: url(/images/farm\ banner\ for\ products.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fruits{
+    line-height: 50vh;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(26, 109, 0);
+    text-shadow: 3px 5px 10px 20px black;
+}
+/* END OF BANNER */
+
+/* CATEGORY SECTION */
+.category{
+    margin-top: 2%;
+    display: flex;
+}
+
+/* CATEGORY 1 */
+.category1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 250px;
+    margin-top: 4%;
+}
+
+.category1 a{
+    margin-top: 15%;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.category1 a:hover{
+    background-color:rgb(109, 106, 106,0.10);
+}
+
+/* CATEGORY 2 */
+.card-row{
+    display: flex;
+    margin-top: 5%;
+}
+
+.card{
+    width: 320px;
+    margin-left: 4%;
+    padding: 5px;
+    /* box-shadow: 1px 1px 2px 3px rgb(255, 213, 213); */
+    border: 1px solid black;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 3px 4px black;
+    background-color: rgb(88, 255, 88);
+    color: white;
+}
+
+.carder dt{
+    margin-top: 5%;
+}
+
+.card img{
+    height: 50%;
+}
+
+.card dd{
+    color: red;
+}
+
+.card-footer a{
+    margin-left: 2%;
+}
+
+.card-footer input{
+    border-radius: 5px;
+    width: 85px;
+    height: 35px;
+    margin-top: 1%;
+    padding-bottom: 14px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+.footer ul li a{
+    color: white;
+  }

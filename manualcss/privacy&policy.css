@@ -1,0 +1,79 @@
+/* NAVBAR SECTION */
+.navbar{
+    height: 50px;
+    background-color: green;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-ul{
+    margin-left: 6%;
+    font-size: 20px;
+    white-space: nowrap;
+    width: max-content;
+}
+
+form{
+    margin-left: 22%;
+}
+
+.nav-ul ul li{
+    margin-left: 5%;
+}
+
+.nav-ul li:hover{
+    background-color: rgb(60, 255, 60);
+    border-radius: 20px;
+}
+
+/* BANNER SECTION */
+.banner{
+    height: 50vh;
+    text-align: center;
+    margin-top: 4.5%;
+    background-image: url(/images/farm\ banner\ for\ products.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fruits{
+    line-height: 50vh;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(26, 109, 0);
+    text-shadow: 3px 5px 10px 20px black;
+}
+/* END OF BANNER */
+
+/* CONTENT SECTION */
+.whole-content1{
+    /* margin-top: 5%; */
+    margin-left: 18%;
+    width: 900px;
+    padding: 20px;
+}
+
+.whole-content0{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.454);
+}
+
+.whole-content{
+    text-align: left;
+    background-image: url(/images/bac.jpg);
+    background-size: cover;
+    /* border-top: 2px solid black; */
+    color: white;
+    text-shadow: 20px 40px 60px 80px black;
+}
+
+.content{
+    margin-top: 10%;
+}
+/* END OF CONTENT */
+
+/* FOOTER SECTION */
+.footer ul li a{
+    color: white;
+  }
+/* END OF FOOTER */
